@@ -31,12 +31,12 @@ requirements:
     - networkx
     - pydot
     - tqdm
+    - momentchi2
 
 test:
   imports:
     - causallearn
   commands:
-    - pip install momentchi2
     - pip check
   requires:
     - pip
